@@ -1,0 +1,54 @@
+{
+  "context": {
+    "date": "2023-07-11T12:26:51+05:30",
+    "host_name": "sgoutham5MD6R.vmware.com",
+    "executable": "./wis_benchmark",
+    "num_cpus": 16,
+    "mhz_per_cpu": 2400,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 0
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 0
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 262144,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 16777216,
+        "num_sharing": 0
+      }
+    ],
+    "load_avg": [2.38525,2.66211,2.92432],
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "BM_weighted_interval_scheduling_rec",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_weighted_interval_scheduling_rec",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 10486734,
+      "real_time": 5.7843376975082442e+01,
+      "cpu_time": 5.7748103461001300e+01,
+      "time_unit": "ns"
+    }
+  ]
+}
